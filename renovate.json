@@ -1,5 +1,12 @@
 {
   "extends": ["github>whitesource/merge-confidence:beta"],
+  "hostRules": [
+    {
+      "hostType": "merge-confidence",
+      "matchHost": "https://badges.renovateapi.com",
+      "token": "asdasd"
+    }
+  ],
   "packageRules":[
     {
       "matchMergeConfidenceLevels": ["high","very high"],
