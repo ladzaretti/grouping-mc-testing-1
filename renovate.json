@@ -10,11 +10,11 @@
   "packageRules":[
     {
       "matchMergeConfidenceLevels": ["high","very high"],
-      "groupName": "high merge confidence"
+      "groupName": "high merge confidence dependencies"
     },
     {
       "matchMergeConfidenceLevels": ["low","neutral"],
-      "groupName": "low neutral merge confidence"
+      "groupName": "low neutral merge confidence dependencies"
     }
   ]
 }
