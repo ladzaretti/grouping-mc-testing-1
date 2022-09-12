@@ -7,7 +7,7 @@
     },
     {
       "matchMergeConfidenceLevels": ["low","neutral"],
-      "groupName": "low neutral merge confidence dependencies"
+      "enable": false
     }
   ]
 }
