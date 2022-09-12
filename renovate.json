@@ -7,7 +7,7 @@
     },
     {
       "matchMergeConfidenceLevels": ["low","neutral"],
-      "enable": false
+      "enabled": false
     }
   ]
 }
