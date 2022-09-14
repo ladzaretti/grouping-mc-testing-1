@@ -2,11 +2,11 @@
   "extends": ["github>whitesource/merge-confidence:beta"],
   "packageRules":[
     {
-      "matchMergeConfidenceLevels": ["high","very high"],
+      "matchConfidence": ["high","very high"],
       "groupName": "high merge confidence dependencies"
     },
     {
-      "matchMergeConfidenceLevels": ["low","neutral"],
+      "matchConfidence": ["low","neutral"],
       "enabled": false
     }
   ]
